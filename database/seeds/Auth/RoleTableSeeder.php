@@ -33,7 +33,7 @@ class RoleTableSeeder extends Seeder
                 'deleted_at' => null,
             ],
             [
-                'name' => 'Executive',
+                'name' => 'Employee',
                 'all' => false,
                 'sort' => 2,
                 'created_by' => 1,

@@ -23,7 +23,7 @@ class UserRoleTableSeeder extends Seeder
         //Attach admin role to admin user
         User::first()->attachRole(1);
 
-        //Attach executive role to executive user
+        //Attach employee role to employee user
         User::find(2)->attachRole(2);
 
         //Attach user role to general user

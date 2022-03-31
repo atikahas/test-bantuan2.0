@@ -342,53 +342,6 @@ class PermissionTableSeeder extends Seeder
         $viewBackend->save();
 
         /**
-         * Email Templates.
-         */
-        $viewBackend = new Permission();
-        $viewBackend->name = 'view-email-template';
-        $viewBackend->display_name = 'View Email Templates';
-        $viewBackend->sort = 27;
-        $viewBackend->created_by = 1;
-        $viewBackend->updated_by = null;
-        $viewBackend->created_at = Carbon::now();
-        $viewBackend->updated_at = Carbon::now();
-        $viewBackend->deleted_at = null;
-        $viewBackend->save();
-
-        $viewBackend = new Permission();
-        $viewBackend->name = 'create-email-template';
-        $viewBackend->display_name = 'Create Email Templates';
-        $viewBackend->sort = 28;
-        $viewBackend->created_by = 1;
-        $viewBackend->updated_by = null;
-        $viewBackend->created_at = Carbon::now();
-        $viewBackend->updated_at = Carbon::now();
-        $viewBackend->deleted_at = null;
-        $viewBackend->save();
-
-        $viewBackend = new Permission();
-        $viewBackend->name = 'edit-email-template';
-        $viewBackend->display_name = 'Edit Email Templates';
-        $viewBackend->sort = 29;
-        $viewBackend->created_by = 1;
-        $viewBackend->updated_by = null;
-        $viewBackend->created_at = Carbon::now();
-        $viewBackend->updated_at = Carbon::now();
-        $viewBackend->deleted_at = null;
-        $viewBackend->save();
-
-        $viewBackend = new Permission();
-        $viewBackend->name = 'delete-email-template';
-        $viewBackend->display_name = 'Delete Email Templates';
-        $viewBackend->sort = 30;
-        $viewBackend->created_by = 1;
-        $viewBackend->updated_by = null;
-        $viewBackend->created_at = Carbon::now();
-        $viewBackend->updated_at = Carbon::now();
-        $viewBackend->deleted_at = null;
-        $viewBackend->save();
-
-        /**
          * Settings.
          */
         $viewBackend = new Permission();
@@ -536,53 +489,6 @@ class PermissionTableSeeder extends Seeder
         $viewBackend->name = 'delete-blog';
         $viewBackend->display_name = 'Delete Blog';
         $viewBackend->sort = 43;
-        $viewBackend->created_by = 1;
-        $viewBackend->updated_by = null;
-        $viewBackend->created_at = Carbon::now();
-        $viewBackend->updated_at = Carbon::now();
-        $viewBackend->deleted_at = null;
-        $viewBackend->save();
-
-        /**
-         * FAQs.
-         */
-        $viewBackend = new Permission();
-        $viewBackend->name = 'view-faq';
-        $viewBackend->display_name = 'View FAQ Management';
-        $viewBackend->sort = 44;
-        $viewBackend->created_by = 1;
-        $viewBackend->updated_by = null;
-        $viewBackend->created_at = Carbon::now();
-        $viewBackend->updated_at = Carbon::now();
-        $viewBackend->deleted_at = null;
-        $viewBackend->save();
-
-        $viewBackend = new Permission();
-        $viewBackend->name = 'create-faq';
-        $viewBackend->display_name = 'Create FAQ';
-        $viewBackend->sort = 45;
-        $viewBackend->created_by = 1;
-        $viewBackend->updated_by = null;
-        $viewBackend->created_at = Carbon::now();
-        $viewBackend->updated_at = Carbon::now();
-        $viewBackend->deleted_at = null;
-        $viewBackend->save();
-
-        $viewBackend = new Permission();
-        $viewBackend->name = 'edit-faq';
-        $viewBackend->display_name = 'Edit FAQ';
-        $viewBackend->sort = 46;
-        $viewBackend->created_by = 1;
-        $viewBackend->updated_by = null;
-        $viewBackend->created_at = Carbon::now();
-        $viewBackend->updated_at = Carbon::now();
-        $viewBackend->deleted_at = null;
-        $viewBackend->save();
-
-        $viewBackend = new Permission();
-        $viewBackend->name = 'delete-faq';
-        $viewBackend->display_name = 'Delete FAQ';
-        $viewBackend->sort = 47;
         $viewBackend->created_by = 1;
         $viewBackend->updated_by = null;
         $viewBackend->created_at = Carbon::now();

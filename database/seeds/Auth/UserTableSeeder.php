@@ -25,9 +25,9 @@ class UserTableSeeder extends Seeder
         //Add the master administrator, user id of 1
         $users = [
             [
-                'first_name' => 'Alan',
-                'last_name' => 'Whitmore',
-                'email' => 'admin@admin.com',
+                'first_name' => 'Admin',
+                'last_name' => 'AGA',
+                'email' => 'admin@agagroup.my',
                 'password' => bcrypt('1234'),
                 'confirmation_code' => md5(uniqid(mt_rand(), true)),
                 'confirmed' => true,
@@ -39,9 +39,9 @@ class UserTableSeeder extends Seeder
                 'uuid' => Str::uuid(),
             ],
             [
-                'first_name' => 'Justin',
-                'last_name' => 'Bevan',
-                'email' => 'executive@executive.com',
+                'first_name' => 'Employee',
+                'last_name' => 'AGA',
+                'email' => 'employee@agagroup.my',
                 'password' => bcrypt('1234'),
                 'confirmation_code' => md5(uniqid(mt_rand(), true)),
                 'confirmed' => true,
@@ -54,8 +54,8 @@ class UserTableSeeder extends Seeder
             ],
             [
                 'first_name' => 'User',
-                'last_name' => 'Test',
-                'email' => 'user@user.com',
+                'last_name' => 'AGA',
+                'email' => 'user@agagroup.my',
                 'password' => bcrypt('1234'),
                 'confirmation_code' => md5(uniqid(mt_rand(), true)),
                 'confirmed' => true,

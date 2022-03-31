@@ -20,7 +20,7 @@ class PermissionUserSeeder extends Seeder
         $this->disableForeignKeys();
         $this->truncate('permission_user');
 
-        // Attach executive user permission
+        // Attach employee user permission
         $user = User::find(2);
         $permissions = $user->roles->first()->permissions->pluck('id');
 

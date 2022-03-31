@@ -75,28 +75,6 @@
 
                 <li class="divider"></li>
 
-                <li class="nav-item">
-                    <a class="nav-link {{
-                        active_class(Route::is('admin/faqs'))
-                    }}" href="{{ route('admin.faqs.index') }}">
-                        <i class="nav-icon fas fa-question-circle"></i>
-                        @lang('menus.backend.sidebar.faqs')
-                    </a>
-                </li>
-
-                <li class="divider"></li>
-
-                <li class="nav-item">
-                    <a class="nav-link {{
-                        active_class(Route::is('admin/email-templates'))
-                    }}" href="{{ route('admin.email-templates.index') }}">
-                        <i class="nav-icon fas fa-envelope"></i>
-                        @lang('menus.backend.sidebar.email-templates')
-                    </a>
-                </li>
-
-                <li class="divider"></li>
-
                 <li class="nav-item nav-dropdown {{
                     active_class(Route::is('admin/blogs'), 'open')
                 }}">
